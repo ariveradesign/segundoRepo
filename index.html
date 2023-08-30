@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap web</title>
+    <meta name="description" content="Segundo ejercicio web, con bootstrap">
+    <meta name="keywords" content="Bootstrap, ejercicio, web">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-success">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-2" href="#">
+                    <img src="assets/img/logo.png" alt="Supra Market" width="60">
+                </a>
+                <button class=" navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto me-2 mb-2 ml-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Limpieza</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Lácteos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Panadería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Congelados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Despensa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-danger ms-4" aria-current="page" href="#"><i
+                                    class="bi bi-cart-fill"></i>3</a>
+                        </li>
+                    </ul>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/slider1.png" class="d-block w-100" alt="Promoción cyber">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/slider2.png" class="d-block w-100" alt="Descuentos agosto">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/slider3.png" class="d-block w-100" alt="Obten tu tarjeta">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/slider4.png" class="d-block w-100" alt="Acumula extra puntos">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section class="my-5 px-5">
+            <h2 class="DisplayFont">Limpieza</h2>
+            <article class="row py-3 mx-0 g-2">
+                <div class="mx-auto mb-3 col-10 col-md-4 col-xl-2">
+                    <div class="card shadow rounded-5 overflow-hidden">
+                        <img src="assets/img/limpieza1.jpg" class="card-img-top mt-3 px-3" alt="Cloro clorinda">
+                        <div class="card-body">
+                            <h6 class="card-title text-danger"><del>$4.990</del></h6>
+                            <h5 class="card-title text-primary mb-3 ps-2">$3.490</h5>
+                            <p class="card-text mb-1">Clorinda</p>
+                            <h5 class="card-title">Cloro</h5>
+                            <div class="d-grid mt-4">
+                                <a href="#" class="btn btn-outline-primary rounded-pill">Agregar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-auto mb-3 col-10 col-md-4 col-xl-2">
+                    <div class="card shadow rounded-5 overflow-hidden">
+                        <img src="assets/img/limpieza2.jpg" class="card-img-top mt-3 px-3" alt="Limpiador cif">
+                        <div class="card-body">
+                            <h6 class="card-title text-danger"><del>$3.590</del></h6>
+                            <h5 class="card-title text-primary mb-3 ps-2">$2.490</h5>
+                            <p class="card-text mb-1">Cif</p>
+                            <h5 class="card-title">Limpiador</h5>
+                            <div class="d-grid mt-4">
+                                <a href="#" class="btn btn-outline-primary rounded-pill">Agregar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-auto mb-3 col-10 col-md-4 col-xl-2">
+                    <div class="card shadow rounded-5 overflow-hidden">
+                        <img src="assets/img/limpieza3.png" class="card-img-top mt-3 px-3" alt="Cloro clorinda">
+                        <div class="card-body">
+                            <h6 class="card-title text-danger"><del>$11.550</del></h6>
+                            <h5 class="card-title text-primary mb-3 ps-2">$9.990</h5>
+                            <p class="card-text mb-1">Omo</p>
+                            <h5 class="card-title">Detergente</h5>
+                            <div class="d-grid mt-4">
+                                <a href="#" class="btn btn-outline-primary rounded-pill">Agregar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-auto mb-3 col-10 col-md-4 col-xl-2">
+                    <div class="card shadow rounded-5 overflow-hidden">
+                        <img src="assets/img/limpieza4.png" class="card-img-top mt-3 px-3" alt="Detergente omo">
+                        <div class="card-body">
+                            <h6 class="card-title text-danger"><del>$4.550</del></h6>
+                            <h5 class="card-title text-primary mb-3 ps-2">$3.990</h5>
+                            <p class="card-text mb-1">Quix</p>
+                            <h5 class="card-title">Lavalozas</h5>
+                            <div class="d-grid mt-4">
+                                <a href="#" class="btn btn-outline-primary rounded-pill">Agregar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-auto mb-3 col-10 col-md-4 col-xl-2">
+                    <div class="card shadow rounded-5 overflow-hidden">
+                        <img src="assets/img/limpieza5.jpg" class="card-img-top mt-3 px-3" alt="soft suavizante">
+                        <div class="card-body">
+                            <h6 class="card-title text-danger"><del>$9.590</del></h6>
+                            <h5 class="card-title text-primary mb-3 ps-2">$8.590</h5>
+                            <p class="card-text mb-1">Soft</p>
+                            <h5 class="card-title">Suavizante</h5>
+                            <div class="d-grid mt-4">
+                                <a href="#" class="btn btn-outline-primary rounded-pill">Agregar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-auto mb-3 col-10 col-md-4 col-xl-2">
+                    <div class="card shadow rounded-5 overflow-hidden">
+                        <img src="assets/img/limpieza6.jpg" class="card-img-top mt-3 px-3" alt="Ariel detergente">
+                        <div class="card-body">
+                            <h6 class="card-title text-danger"><del>$14.990</del></h6>
+                            <h5 class="card-title text-primary mb-3 ps-2">$12.490</h5>
+                            <p class="card-text mb-1">Ariel</p>
+                            <h5 class="card-title">Detergente</h5>
+                            <div class="d-grid mt-4">
+                                <a href="#" class="btn btn-outline-primary rounded-pill">Agregar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer class="bg-secondary">
+        <section class="container-fluid pt-5 pb-2">
+            <article class="row row-cols-1 row-cols-md-2 row-cols-lg-4 text-center text-light">
+                <div class="col mb-5 mb-lg-0">
+                    <h4 class="DisplayFont mb-4">¿Necesitas ayudag?</h4>
+                    <a class="nav-link" href="">Sobre Supramarket</a>
+                    <a class="nav-link" href="">Infórmate</a>
+                    <a class="nav-link" href="">Encuentranos</a>
+                    <a class="nav-link" href="">Contactanos</a>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <h4 class="DisplayFont mb-4">SUPRAMARKETg</h4>
+                    <a class="nav-link" href="">Información de pago</a>
+                    <a class="nav-link" href="">Proveedores</a>
+                    <a class="nav-link" href="">Acuerdos legales</a>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <h4 class="mb-4" class="DisplayFont">SUCURSALESg</h4>
+                    <h5 class="mb-0">Sucursal 1</h5>
+                    <p class="mb-3">Dirección sucursal 1</p>
+                    <h5 class="mb-0">Sucursal 2</h5>
+                    <p class="mb-3">Dirección sucursal 2</p>
+                    <h5 class="mb-0">Sucursal 3</h5>
+                    <p class="mb-3">Dirección sucursal 3</p>
+                </div>
+                <div class="col">
+                    <h4 class="DisplayFont mb-4"class="mb-4">SÍGUENOSg</h4>
+                    <a class="nav-link d-inline-block fs-3 mx-2" href=""><i class="bi bi-facebook"></i></a>
+                    <a class="nav-link d-inline-block fs-3 mx-2" href=""><i class="bi bi-instagram"></i></a>
+                    <a class="nav-link d-inline-block fs-3 mx-2" href=""><i class="bi bi-youtube"></i></a>
+                    <a class="nav-link d-inline-block fs-3 mx-2" href=""><i class="bi bi-twitter"></i></a>
+                </div>
+            </article>
+            <article class="text-center text-light mt-3 pt-3 border-top border-black">
+                <p>Creado por Anonymous</p>
+            </article>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
